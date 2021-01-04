@@ -4,8 +4,6 @@
 import pytest
 
 
-
-
 class TestDemo:
 
     def test_a(self, connectDB):
@@ -13,6 +11,7 @@ class TestDemo:
 
     def test_b(self, connectDB):
         print("测试用例b")
+
 
 class TestDemo2:
 
